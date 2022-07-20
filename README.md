@@ -73,23 +73,20 @@ https://github.com/mozilla/geckodriver/releases
 ##### Linux:
 Será necessário que os webdrivers estejam adicionados ao PATH do Sistema. Para isso, acesse a pasta Downloads via Terminal, e digite os seguintes comandos:
 
-Extrair os arquivos:
+Extrair o arquivo:
 	
-	$ unzip chromedriver_linux64.zip
 	$ tar -xvzf geckodriver
 
-Tornar os arquivos executáveis:
+Tornar o arquivo executável:
 	
-	$ chmod +x chromedriver
 	$ chmod +x geckodriver
 
 Mover os arquivos para o diretório /usr/local/bin:
 	
-	$ sudo mv -f chromedriver /usr/local/bin/chromedriver
 	$ sudo mv -f geckodriver /usr/local/bin/geckodriver 
 
 ##### Windows:
-Copie e cole os webdrivers em algum diretório que esteja no PATH do sistema, recomenda-se que seja no diretório de Scripts do Python.
+Copie e cole o webdriver em algum diretório que esteja no PATH do sistema, recomenda-se que seja no diretório de Scripts do Python.
 
 ### Demais dependências
 Instale as dependências necessárias:
