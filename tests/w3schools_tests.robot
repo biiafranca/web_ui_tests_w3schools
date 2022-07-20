@@ -1,7 +1,7 @@
 *** Settings ***
-Resource                 resources/color_name_vs_hex_scenario.resource
-Resource                 resources/html_form_scenario.resource
-Resource                 resources/modal_box_scenario.resource
+Resource                 ../resources/color_name_vs_hex_scenario.resource
+Resource                 ../resources/html_form_scenario.resource
+Resource                 ../resources/modal_box_scenario.resource
 
 Force Tags               robot:continue-on-failure
 
