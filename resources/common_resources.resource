@@ -2,7 +2,7 @@
 Library                                   SeleniumLibrary
 
 *** Variables ***
-${BROWSER}                                firefox
+${BROWSER}                                headlessfirefox
 ${URL_W3SCHOOLS}                          https://www.w3schools.com/
 ${SELENIUM_TIMEOUT}                       15s
 
