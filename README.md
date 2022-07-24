@@ -129,3 +129,10 @@ Observações:
 - Necessário ter o Docker e Python instalados
 - Os testes de interface web podem apresentar lentidão na execução via docker, provavelmente devido a limitação da memória RAM, conforme relatado nessa discussão: https://github.com/SeleniumHQ/docker-selenium/issues/135
 - Acesse o diretório "results" para acessar os logs da execução.
+
+
+## Interpretação dos resultados
+
+Além do resultado exibido no console, o Robot Framework gera arquivos de Log e Report, para que o testador tenha mais detalhes da execução.
+
+Para dicas de interpretação desses resultados, consulte a página: https://medium.com/@mayfernandes/season-running-ep-01-log-e-report-de-execu%C3%A7%C3%A3o-do-robot-framework-4119d8b37bab
