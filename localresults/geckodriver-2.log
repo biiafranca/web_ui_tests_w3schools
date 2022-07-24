@@ -1,0 +1,17 @@
+1658686813764	geckodriver	INFO	Listening on 127.0.0.1:58755
+1658686814286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51695" "-no-remote" "-profile" "/tmp/rust_mozprofileE7KLSJ"
+*** You are running in headless mode.
+1658686814568	Marionette	INFO	Marionette enabled
+1658686814571	Marionette	INFO	Listening on port 39475
+WebDriver BiDi listening on ws://localhost:51695
+1658686814667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE7KLSJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51695/devtools/browser/795470f6-be88-431a-b028-12ddc10f6005
+1658686819263	Marionette	INFO	Stopped listening on port 39475
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

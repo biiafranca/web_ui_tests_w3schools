@@ -10,6 +10,7 @@ ${COLOR_GROUPS__MENU}                    //a[text()="Color Groups"]
 *** Keywords ***
 Page At Color Groups Menu
     Click Element                         ${TUTORIALS_OPTION}
+    Scroll Element Into View              ${LEARN_COLORS__MENU}
     Click Element                         ${LEARN_COLORS__MENU}
     Click Element                         ${COLOR_GROUPS__MENU}
 

@@ -14,6 +14,7 @@ ${SUBMITTED_VALUE__FIELD}               //*[@class="w3-container"]/div[1]
 *** Keywords ***
 Page At HTML Forms Menu
     Click Element                        ${TUTORIALS_OPTION}
+    Scroll Element Into View             ${LEARN_HTML__MENU}
     Click Element                        ${LEARN_HTML__MENU}
     Click Element                        ${HTML_FORMS__MENU}
 

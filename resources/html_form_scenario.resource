@@ -18,6 +18,7 @@ ${LAST_NAME__FIELD}                     id=lname
 *** Keywords ***
 Page At Modal Boxes Menu
     Click Element                         ${TUTORIALS_OPTION}
+    Scroll Element Into View              ${LEARN_HOW_TO__MENU}
     Click Element                         ${LEARN_HOW_TO__MENU}
     Click Element                         ${MODAL_BOXES__MENU}
 
