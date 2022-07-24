@@ -115,6 +115,8 @@ Para executar um teste específico:
 
     $ robot -d ./diretorio/de/resultados -t "nome do teste" diretorio/de/testes/test_name.robot
     
+Para acessar o log do teste, acesse o diretório configurado como /diretorio/de/resultados
+    
 ## Execução Via Docker
 
 É possivel executar os testes via Docker através do script contido em docker_run_tests.py, que cria uma imagem através do Dockerfile do projeto, executa o container e roda os testes.
@@ -126,8 +128,4 @@ Para isto, estando no diretório do projeto, digite o comando:
 Observações:
 - Necessário ter o Docker e Python instalados
 - Os testes de interface web podem apresentar lentidão na execução via docker, provavelmente devido a limitação da memória RAM, conforme relatado nessa discussão: https://github.com/SeleniumHQ/docker-selenium/issues/135
-
-## TODO
-
-* Instruções para analisar os relatórios de resultado
-* Considerações sobre a organização do projeto, e justificativa de determinadas escolhas
+- Acesse o diretório "results" para acessar os logs da execução.
