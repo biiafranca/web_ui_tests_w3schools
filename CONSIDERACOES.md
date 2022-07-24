@@ -32,9 +32,3 @@ A decisão final foi a união em apenas um Test Case, pois devido a tag robot:co
 Os navegadores headless são navegadores sem uma interface gráfica do usuário, o que é útil em caso de execução via container, por isso essa opção foi escolhida.
 
 O navegador Firefox foi escolhido devido a sua facilidade de configuração na execução de testes web.
-
-## Interpretação dos resultados
-
-Além do resultado exibido no console, o Robot Framework gera arquivos de Log e Report, para que o testador tenha mais detalhes da execução.
-
-Para dicas de interpretação desses resultados, consulte a página: https://medium.com/@mayfernandes/season-running-ep-01-log-e-report-de-execu%C3%A7%C3%A3o-do-robot-framework-4119d8b37bab
